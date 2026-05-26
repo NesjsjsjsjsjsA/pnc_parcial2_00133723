@@ -1,1 +1,1 @@
-INSERT INTO
+INSERT INTO magicProvider_data(id,name,type) VALUES (gen_random_uuid(), 'magicProvider1',1);

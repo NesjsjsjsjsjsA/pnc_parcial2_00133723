@@ -5,7 +5,7 @@ spring:
     name: Parcial02-Ncapas
   sql:
     init:
-      mode: always
+      mode: never
   jpa:
     database: postgresql
     hibernate:
