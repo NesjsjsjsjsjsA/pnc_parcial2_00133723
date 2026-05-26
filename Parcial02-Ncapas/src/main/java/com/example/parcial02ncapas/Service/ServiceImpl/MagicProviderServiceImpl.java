@@ -21,6 +21,7 @@ public class MagicProviderServiceImpl implements iMagicProviderService {
                 .name(mpDTO.getName())
                 .build();
 
+        mgRep.save(mgToDatabase);
         return mpDTO;
     }
 }

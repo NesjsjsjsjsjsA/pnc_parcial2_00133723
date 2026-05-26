@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 public interface iMagicProviderRepository extends JpaRepository<MagicProvider, Long> {
-    @Query("SELECT u FROM MagicProvider u WHERE u.id = :id")
-    MagicProvider findMagicProviderBy(String dui);
+    @Query("SELECT u FROM MagicProvider u WHERE u.name = :name")
+    MagicProvider findMagicProviderName(String name);
 }
