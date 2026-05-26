@@ -23,5 +23,6 @@ public class MagicProvider {
         POCION,
         ARMA,
         ARMADURA
-    };
+    }
+
 }
